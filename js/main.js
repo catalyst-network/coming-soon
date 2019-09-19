@@ -1,10 +1,10 @@
 var template = {
-    title: 'Your gateway to the decentralised internet starts with the Atlas Wallet',
-    description: 'Atlas Wallet is a multi-currency wallet supporting Bitcoin, Litecoin, ERC-20 tokens and soon Catalyst Networks native token KAT.',
+    title: 'JOIN THE FIRST DLT NETWORK WHICH ENABLES ALL DEVELOPERS TO PARTICIPATE IN THE DECENTRALISED COMPUTING REVOLUTION!',
+    description: 'The Catalyst Network is a fast, light, secure and decentralised network that enables all developers to quickly develop and deploy dapps and smart contracts — without needing to invest time and money learning new programming languages. Use your existing skills to tap into a rapidly expanding market and join a growing community of developers working to bring blockchain technology into the mainstream.',
     socialCard: '',
-    url: '',
-    twitter: '@AtlasCity',
-    metaTitle: 'Cryptowallet Beta Signup',
+    url: 'https:/catalystnet.org',
+    twitter: '@CatalystNetOrg',
+    metaTitle: 'Catalyst Developer Signup',
     metaDescription: '',
 }
 
@@ -15,8 +15,7 @@ var countDownDate = new Date(template.date).getTime(), // The countdown is inten
     title = document.getElementById('js-title');
     kicker = document.getElementById('js-kicker');
     deck = document.getElementById('js-deck');
-    mockup = document.getElementById('js-mockup');
- 
+
     title.innerHTML = template.title;
 
     // Set metadata
@@ -34,10 +33,9 @@ var countDownDate = new Date(template.date).getTime(), // The countdown is inten
 
 var x = setTimeout(function() {
     deck.innerHTML = template.description;
+
     title.classList.add('fade-in');
     deck.classList.add('fade-in');
-    mockup.classList.add('fade-in');
-    // countdown.classList.add('fade-in');
     cta.classList.add('fade-in');
 
 },
